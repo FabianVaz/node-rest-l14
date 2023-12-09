@@ -1,16 +1,57 @@
-# node-rest-l14
-# Documentación de la API RESTful
+# API RESTful con Node.js
 
-Bienvenido a la documentación de la API. A continuación, se presenta una lista
-de endpoints disponibles con enlaces a sus respectivas documentaciones detalladas.
+Proyecto de demostración para clases de desarrollo de APIs utilizando Node.js,
+con implementación en contenedores de Docker.
 
-## Descripción General de Endpoints
+## Tabla de contenido
 
-| Recurso                    | Descripción |
-| -------------------------- | ----------- |
-| `GET /usuarios`               | Recupera la lista de todos los Usuarios disponibles. |
-| `GET /servicios`               | Recupera la lista de todos los Servicios disponibles. |
-| `GET /categorias`               | Recupera la lista de todos los Categorias disponibles. |
-| [`GET /usuarios/{id}`](./docs//get-usuarios-id.md)          | Obtiene información detallada sobre un tema específico. |
-| [`GET /servicios{id}`](./docs//get-servicios-id.md)          | Obtiene información detallada sobre un tema específico. |
-| [`GET /categorias/{id}`](./edocs//get-categorias-id.md)          | Obtiene información detallada sobre un tema específico. |
+- [API RESTful con Node.js](#api-restful-con-nodejs)
+  - [Tabla de contenido](#tabla-de-contenido)
+  - [Requisitos de instalación](#requisitos-de-instalación)
+  - [Instrucciones para la instalación](#instrucciones-para-la-instalación)
+  - [Documentación detallada](#documentación-detallada)
+  - [Enlaces externos](#enlaces-externos)
+
+## Requisitos de instalación
+
+Asegúrate de tener instalado y configurado Docker antes de comenzar.
+
+- [Docker](https://www.docker.com)
+
+## Instrucciones para la instalación
+
+1. Clonar el repositorio en la máquina local:
+   
+   ```sh
+   git clone https://github.com/FabianVaz/node-rest-l14.git
+   ```
+
+2. Navegar al directorio del proyecto:
+   
+   ```sh
+   cd node-rest-l14
+   ```
+
+3. Ejecutar el siguiente comando para iniciar los contenedores:
+
+    ```sh
+    docker-compose up -d
+    ```
+
+    > **IMPORTANTE**
+    >
+    > Debe estar iniciado el Docker engine para ejecutar el comando anterior,
+    > si no lo está, se devolverá un mensaje de error indicando que no se
+    > encontró el docker daemon.
+
+4. La API estará disponible en `http://localhost:3000`.
+
+## Documentación detallada
+
+Para obtener información detallada sobre los endpoints y cómo utilizar la API,
+consulta la [documentación detallada](./docs/README.md).
+
+## Enlaces externos
+
+- [Node.js](https://www.nodejs.org)
+- [Docker](https://www.docker.com)
