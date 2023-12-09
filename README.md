@@ -11,6 +11,6 @@ de endpoints disponibles con enlaces a sus respectivas documentaciones detallada
 | `GET /usuarios`               | Recupera la lista de todos los Usuarios disponibles. |
 | `GET /servicios`               | Recupera la lista de todos los Servicios disponibles. |
 | `GET /categorias`               | Recupera la lista de todos los Categorias disponibles. |
-| [`GET /usuarios/{id}`](./endpoints//get-usuarios-id.md)          | Obtiene información detallada sobre un tema específico. |
-| [`GET /servicios{id}`](./endpoints//get-servicios-id.md)          | Obtiene información detallada sobre un tema específico. |
-| [`GET /categorias/{id}`](./endpoints//get-categorias-id.md)          | Obtiene información detallada sobre un tema específico. |
+| [`GET /usuarios/{id}`](./docs//get-usuarios-id.md)          | Obtiene información detallada sobre un tema específico. |
+| [`GET /servicios{id}`](./docs//get-servicios-id.md)          | Obtiene información detallada sobre un tema específico. |
+| [`GET /categorias/{id}`](./edocs//get-categorias-id.md)          | Obtiene información detallada sobre un tema específico. |
