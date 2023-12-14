@@ -11,6 +11,6 @@ de endpoints disponibles con enlaces a sus respectivas documentaciones detallada
 | `GET /usuarios`               | Recupera la lista de todos los Usuarios disponibles. |
 | `GET /servicios`               | Recupera la lista de todos los Servicios disponibles. |
 | `GET /categorias`               | Recupera la lista de todos los Categorias disponibles. |
-| [`GET /usuarios/{id}`](./docs/get-usuarios-id.md)          | Obtiene información detallada sobre un tema específico. |
-| [`GET /servicios{id}`](./docs/get-servicios-id.md)          | Obtiene información detallada sobre un tema específico. |
+| [`GET /usuarios/{id}`](https://github.com/FabianVaz/node-rest-l14/blob/main/docs/get-usuarios-id.md)          | Obtiene información detallada sobre un tema específico. |
+| [`GET /servicios{id}`](https://github.com/FabianVaz/node-rest-l14/blob/main/docs/get-servicios-id.md)          | Obtiene información detallada sobre un tema específico. |
 | [`GET /categorias/{id}`](https://github.com/FabianVaz/node-rest-l14/blob/main/docs/get-categorias-id.md)          | Obtiene información detallada sobre un tema específico. |
