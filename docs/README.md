@@ -13,4 +13,4 @@ de endpoints disponibles con enlaces a sus respectivas documentaciones detallada
 | `GET /categorias`               | Recupera la lista de todos los Categorias disponibles. |
 | [`GET /usuarios/{id}`](./docs/get-usuarios-id.md)          | Obtiene información detallada sobre un tema específico. |
 | [`GET /servicios{id}`](./docs/get-servicios-id.md)          | Obtiene información detallada sobre un tema específico. |
-| [`GET /categorias/{id}`](./docs/get-categorias-id.md)          | Obtiene información detallada sobre un tema específico. |
+| [`GET /categorias/{id}`]([./docs/get-categorias-id.md](https://github.com/FabianVaz/node-rest-l14/blob/main/docs/get-categorias-id.md)https://github.com/FabianVaz/node-rest-l14/blob/main/docs/get-categorias-id.md)          | Obtiene información detallada sobre un tema específico. |
